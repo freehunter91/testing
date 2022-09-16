@@ -4,4 +4,4 @@ RUN mkdir -p /apps/webapp
 COPY target/${filename} /apps/webapp
 WORKDIR /apps/webapp
 EXPOSE 18000
-CMD ["java", "-jar $filename"]
+CMD ["sh -c","java -jar $filename"]
