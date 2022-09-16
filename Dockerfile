@@ -5,3 +5,4 @@ COPY target/${filename} /apps/webapp
 WORKDIR /apps/webapp
 EXPOSE 18000
 CMD ["/bin/bash", "-c", "java -jar $filename"]
+
