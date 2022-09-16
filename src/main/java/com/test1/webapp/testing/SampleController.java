@@ -11,7 +11,7 @@ public class SampleController {
     @RequestMapping(value="/")
     @ResponseBody
     public String sampleHome() {
-        return "Hello Spring Boot";
+        return "Hello Spring Boot.";
     }
 
     @RequestMapping(value="/health")
